@@ -1,39 +1,4 @@
-/* only small desktops */
-/* tablets */
- /* @media (min-width: 1115px) and (max-width: 1190px) {
-     .countdown{
-         height: 285px;
-    }
-     .top-header .navbar .navbar-collapse ul li a{
-         font-size: 14px;
-    }
-     .lbox-details h2{
-         font-size: 26px;
-    }
-     .contact_bt {
-         margin-top: 25px;
-         margin-right: -10px;
-    }
-     .slide_text {
-         margin-top: 170px;
-    }
-	.social_icon {
-    margin-bottom: 30px; 
-    }
 
-
-.top-header .navbar .navbar-collapse ul li a {
-    padding: 7px 15px;
-}
-
-.team_member_img .social_icon_team {
-    top: 0;
-    left: 0;
-    width: 300px;
-    height: 100%;
-} */
-
-/* } */
 
 /* only small tablets */
  @media (min-width: 768px) and (max-width: 1114px) {
