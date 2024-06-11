@@ -5,7 +5,7 @@ class MyFooter extends HTMLElement {
         <div class="footer-final">
             <div href="#" class="col-lg-4 col-md-12 col-sm-12">San Diego, California</div>
             <div class="col-lg-4 col-md-12 col-sm-12"> <a href="tel:8587762892">(858) 776-2892</a></div>
-            <div class="col-lg-4 col-md-12 col-sm-12"> <a href="mailto:palceholder@email.com">palceholder@email.com</a>
+            <div class="col-lg-4 col-md-12 col-sm-12"> <a href="mailto:info@localtechelp.com">info@localtechelp.com</a>
             </div>
         </div>
 
@@ -16,7 +16,7 @@ class MyFooter extends HTMLElement {
                     <div class="col-12">
                         <p class="crp">© 2024 Business . All Rights Reserved.</p>
                         <ul class="bottom_menu">
-                            <li><a href="creative commons.html">Creative Commons</a></li>
+                            <li><a href="creative-commons.html">Creative Commons</a></li>
                         </ul>
                     </div>
                 </div>
