@@ -1,19 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Basic -->
-
-<style>
-  #googleForm {
-    text-align: center;
-  }
-</style>
 
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-DVNFCGMNTT"></script>
@@ -21,33 +12,39 @@
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'G-DVNFCGMNTT');
   </script>
 
   <!-- Site Metas -->
   <title>Local Tech Help</title>
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-
-  <!-- Site Icons -->
-  <link rel="shortcut icon" href="#" type="image/x-icon" />
-  <link rel="apple-touch-icon" href="#" />
+  <meta name="keywords"
+    content="Elderly tech support, Senior tech help, Help with phones for seniors, Printer support for elderly, Technology assistance for elderly, Senior device setup, Elderly tech guidance, Tech help for older adults, Phone assistance for seniors, Computer support for elderly, Elderly tech tutoring, Senior-friendly tech support, Help with gadgets for seniors, Elderly online assistance, Senior tech troubleshooting" />
+  <meta name="description"
+    content="Providing technology assistance and support to elderly people with their phones, printers, computers, and other devices." />
+  <meta name="author" content="Local Tech Help" />
 
   <!-- Favicon -->
-  <link rel="shortcut icon" type="image/png" href="images/favicon_universal.png" />
+  <link rel="shortcut icon" type="image/png" href="images/favicon-universal.png" />
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <!-- Pogo Slider CSS -->
-  <link rel="stylesheet" href="css/pogo-slider.min.css" />
   <!-- Site CSS -->
   <link rel="stylesheet" href="css/style.css" />
   <!-- Responsive CSS -->
   <link rel="stylesheet" href="css/responsive.css" />
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/custom.css" />
+
+  <style>
+    #googleForm {
+      text-align: center;
+    }
+
+    .form-container iframe {
+      width: 100%;
+      border: 0;
+    }
+  </style>
 </head>
 
 <body id="about" class="inner_page" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
@@ -56,13 +53,13 @@
   <my-header></my-header>
   <!-- End header -->
 
-  <!-- section -->
+  <!-- Section -->
   <div id="googleForm" class="section form-container">
     <iframe
       src="https://docs.google.com/forms/d/e/1FAIpQLSd3JbyvgJG8mBQY69e_-PkkTkV4bnC9UiY13RsVMcnTrve9Nw/viewform?embedded=true"
-      width="640" height="1400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      id="iFrame1" onload="iframeResponsive(this)"></iframe>
   </div>
-  <!-- end section -->
+  <!-- End Section -->
 
   <!-- Start Footer -->
   <script src="js/footer-template.js"></script>
@@ -75,6 +72,7 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/iframe-responsive.js"></script>
   <!-- ALL PLUGINS -->
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/jquery.pogo-slider.min.js"></script>

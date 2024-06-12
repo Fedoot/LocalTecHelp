@@ -10,7 +10,7 @@ class MyHeader extends HTMLElement {
         <header class="top-header">
           <nav class="navbar header-nav navbar-expand-lg">
             <div class="container-fluid">
-              <a class="navbar-brand" href="index.html"><img src="images/index/LTH-full-logo-black.png" alt="image"></a>
+              <a class="navbar-brand" href="index.html"><img src="images/index/Local-Tech-Help-Logo.png" width="200px" alt="Local Tech Help Logo"></a>
               <a class="contact_bt request-support" href="seniorapplication.html">Request Support</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-twd"
                 aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
